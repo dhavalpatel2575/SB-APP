@@ -11,7 +11,7 @@ public class AwsEc2Application {
 
 	@GetMapping("/welcome")
 	public String welcome(){
-		return "Hello";
+		return "Hello World!!!!";
 	}
 
 	@GetMapping("/welcome2")
