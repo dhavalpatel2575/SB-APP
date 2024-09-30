@@ -13,6 +13,11 @@ public class AwsEc2Application {
 	public String welcome(){
 		return "Hello";
 	}
+
+	@GetMapping("/welcome2")
+	public String welcome2(){
+		return "Hello2";
+	}
 	public static void main(String[] args) {
 		SpringApplication.run(AwsEc2Application.class, args);
 	}
